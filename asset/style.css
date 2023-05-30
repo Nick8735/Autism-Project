@@ -53,8 +53,8 @@ body, html {
         flex-direction: row-reverse;
      }              
      .campaign-graphic_image{
-        max-width: 200px;
-        max-height: 200px;
+        max-width: 400px;
+        max-height: 300px;
         height: auto;
         width: auto;
         margin-right: 50px;}
