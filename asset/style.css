@@ -71,10 +71,10 @@ body, html {
     .item .card{
         height: 100%;
         width: 100%;
-        border: 1 px solid black;
+        border: 1px solid black;
         border-radius: 8px;
         overflow: hidden;
-        box-sizing: border;
+        box-sizing: border-box;
     }
     .item img{
         width: 100%;
