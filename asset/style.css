@@ -46,6 +46,9 @@ body, html {
         border: 1px solid black;
         padding-top: 20px;
         padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
             }
     .grid{
         display: grid;
