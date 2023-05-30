@@ -96,7 +96,7 @@ body, html {
  .card-description{
     margin-top: 5px;
  }
-.bg-dark text-white py-4{
+.bg-dark{
     background-image: url("asset/Images/autism-hero2.jpg");
 }
 
