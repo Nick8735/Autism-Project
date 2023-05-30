@@ -53,7 +53,7 @@ body, html {
         flex-direction: row-reverse;
      }              
      .campaign-graphic_image{
-        max: 600px;
+        max: 300px;
         height: auto;
         margin-right: 50px;}
 
