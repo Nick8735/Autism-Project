@@ -4,7 +4,7 @@ body, html {
         padding: 0;
 }
 .banner-image {
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("asset/Images/autism-hero.jpg");
+   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/autism-hero.jpg");
    height: 100vh;
    background-position: center center;
    background-repeat: no-repeat;
