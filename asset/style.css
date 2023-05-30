@@ -74,4 +74,19 @@ body, html {
           grid-template-columns: 1fr; 
         }
       }
- 
+      .card{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+.card-image{
+    width: 100%;
+    height: auto;
+}
+ .card-content{
+    padding: 10px;
+ }
+ .card-title{
+    margin: 0;
+ }
