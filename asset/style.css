@@ -50,11 +50,16 @@ body, html {
         display: flex;
         align-items: center;
         gap: 20px;
+        flex-direction: row-reverse;
      }              
      .campaign-graphic_image{
         width: 400px;
         height: auto;
-        margin-left: 50px;}
+        margin-right: 50px;}
+
+        .campaign-graphic_content{
+            text-align: left;
+        }
 
         .campaign-graphic_title{
             margin: 0;
