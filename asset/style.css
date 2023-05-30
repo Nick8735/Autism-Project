@@ -96,3 +96,6 @@ body, html {
  .card-description{
     margin-top: 5px;
  }
+footer{
+    background-color: aqua;
+}
