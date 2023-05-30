@@ -100,10 +100,10 @@ footer{
     background-image: url("../asset/Images/autism-hero2.jpg");
     background-size: cover;
     background-position: center;
-    height: 20%;
+    height: 2.5rem;
     margin-top: auto;
-    
-    bottom: 0;
+        bottom: 0;
+        width: 100%;
     
 }
 .container-body{
