@@ -1,5 +1,5 @@
 body, html {
-        margin: 8px;
+        height: 100%;
 }
 .banner-image {
    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("asset/autism-hero2.jpg");
