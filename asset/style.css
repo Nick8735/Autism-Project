@@ -57,7 +57,7 @@ body, html {
         max-height: 300px;
         height: auto;
         width: auto;
-        margin-right: 50px;}
+        align-items: center;}
 
         .campaign-graphic_content{
             text-align: left;
