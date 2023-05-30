@@ -48,7 +48,8 @@ body, html {
          padding-top: 20px;
         padding-bottom: 20px;
         box-sizing: border-box;
-        object-fit: contain;
+        height: 600px;
+       
          }
     .grid{
         display: grid;
