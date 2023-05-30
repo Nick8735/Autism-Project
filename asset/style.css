@@ -50,7 +50,7 @@ body, html {
         display: flex;
         align-items: center;
         gap: 20px;
-        flex-direction: column-reverse;
+        
      }              
      .campaign-graphic_image{
         max-width: 400px;
