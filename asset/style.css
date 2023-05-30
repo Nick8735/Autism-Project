@@ -40,7 +40,28 @@ body, html {
     }
     .campaign-block_description{
         margin-top: 10px ;
-    }
+           }
+    .campaign-graphic{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+            }
+     .campaign-graphic_inner{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+     }              
+     .campaign-graphic_image{
+        width: 400px;
+        height: auto;
+        margin-left: 50px;}
+
+        .campaign-graphic_title{
+            margin: 0;
+        }
+        .campaign-graphic_description{
+            margin-top: 10px ;
+               }
     .container{
         width: 80%;
         margin: auto;
