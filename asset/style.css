@@ -104,12 +104,5 @@ footer{
     margin: 0;
     padding: 0;
 }
-.wrapper{
-    min-height: 100%;
-    height: auto;
-    height: 100%;
-    margin: 0 auto -142px;
-}
-.footer, .push{
-    height: 142px;
-}
+
+ 
