@@ -96,8 +96,10 @@ body, html {
  .card-description{
     margin-top: 5px;
  }
-.bg-dark{
-    background-image: url("asset/Images/autism-hero2.jpg");
+footer{
+    background-image: url("../asset/Images/autism-hero2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
  
