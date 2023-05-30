@@ -102,6 +102,7 @@ footer{
     background-position: center;
     height: 40%;
     margin-top: auto;
+    padding-bottom: 2.5rem;
 }
 .container-body{
     min-height: 100vh;
