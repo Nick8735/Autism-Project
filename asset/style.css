@@ -19,3 +19,23 @@ body, html {
         transform: translate(-50%, -50%);
         color: white;
     }
+    .campaign-block{
+        display: flex;
+        align-items: center;
+    }
+
+    .campaign-block_inner{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .campaign-block_image{
+        width: 200px;
+        height: auto;
+    }
+    .campaign-block_title{
+        margin: 0;
+    }
+    .campaign-block_description{
+        margin-top: 10px ;
+    }
