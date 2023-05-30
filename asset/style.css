@@ -2,3 +2,6 @@ body, html {
     height: 100%;
     margin: 8px;
 }
+.banner-image {
+    justify-content: center;
+    }
