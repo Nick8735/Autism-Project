@@ -63,7 +63,18 @@ body, html {
         justify-content: center;
         display: flex;
         align-items: center;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
        
+    }
+    .item .card{
+        height: 100%;
+        width: 100%;
+        border: 1 px solid black;
+        border-radius: 8px;
+        overflow: hidden;
+        box-sizing: border;
     }
     .item img{
         width: 100%;
