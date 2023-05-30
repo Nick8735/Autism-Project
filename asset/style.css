@@ -93,9 +93,3 @@ body, html {
  .card-description{
     margin-top: 5px;
  }
- .center-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
- }
