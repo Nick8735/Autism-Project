@@ -61,6 +61,7 @@ body, html {
 
         .campaign-graphic_content{
             text-align: left;
+            align-items: center;
         }
 
         .campaign-graphic_title{
