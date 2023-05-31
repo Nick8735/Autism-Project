@@ -116,6 +116,8 @@ body, html {
         border: 1px solid black;
         border-radius: 8px;
         overflow: hidden;
+        min-height: 100vh;
+        margin-bottom: -300px;
       }
 .card-image{
     width: 100%;
@@ -130,7 +132,7 @@ body, html {
  .card-description{
     margin-top: 5px;
  }
-footer{
+footer, .push{
     background-image: url("../asset/Images/autism-hero2.jpg");
     background-size: cover;
     background-position: center;
