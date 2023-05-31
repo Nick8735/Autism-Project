@@ -145,4 +145,6 @@ footer{
     flex: 1;
     
 }
- 
+ .campaign-text{
+    text-align: left;
+ }
