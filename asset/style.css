@@ -44,7 +44,7 @@ body, html {
     .campaign-graphic{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
             }
      .campaign-graphic_inner{
         display: flex;
@@ -57,10 +57,12 @@ body, html {
        max-height: 300px;
        height: auto;
        width: auto;
+       margin-left: 50px;
        }
 
         .campaign-graphic_content{
-            text-align: center;
+            text-align: left;
+            margin-left: 50px;
           
         }
 
@@ -145,6 +147,11 @@ footer{
     flex: 1;
     
 }
+.campaign-text_title{
+    margin-left: 50px;
+    text-align: left;
+}
  .campaign-text{
     text-align: left;
+    margin-left: 50px;
  }
