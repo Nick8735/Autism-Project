@@ -203,12 +203,11 @@ align-items: left;
     text-align: right;
 }
 .tom-tag_text{
-    background-color: rgb(37, 150, 190);
+    background-color: rgb(19, 55, 214);
     border: solid 2px;
     border-color: black;
     justify-content: center;
     height: auto;
     width: 200px;
-    gap: 20px;
     color: white;
 }
