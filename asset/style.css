@@ -209,4 +209,6 @@ align-items: left;
     justify-content: center;
     height: auto;
     width: 200px;
+    gap: 20px;
+    color: white;
 }
