@@ -190,4 +190,5 @@ main{
  }
  .fundementals, .fundementals-title, .fundementals-text{
     margin-left: 25px;
+    align-items: left;
  }
