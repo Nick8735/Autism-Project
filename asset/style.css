@@ -207,4 +207,6 @@ align-items: left;
     border: solid 2px;
     border-color: black;
     justify-content: center;
+    height: auto;
+    width: 200px;
 }
