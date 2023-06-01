@@ -193,3 +193,12 @@ align-items: left;
     text-align: center;
     margin-top: 10px;
  }
+.tom-tag_outer{
+    display: flex;
+    align-items: center; 
+    background-color: white; 
+}
+.tom-tag_image{
+    display: flex;
+    text-align: left;
+}
