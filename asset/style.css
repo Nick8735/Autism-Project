@@ -38,9 +38,12 @@ body, html {
         top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
-    }
-    .campaign-block{
+        color: white;}
+.main-title{
+font-size: x-large;
+
+}
+        .campaign-block{
         display: flex;
         align-items: center; 
         background-color: white;       
