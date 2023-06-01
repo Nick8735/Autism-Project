@@ -90,8 +90,7 @@ font-size: 100px;
             text-align: left;
             margin-right: 300px;
             
-          
-        }
+               }
 
         .campaign-graphic_title{
             margin: 0;
@@ -188,4 +187,7 @@ main{
  .card-main_title{
     text-align: center;
     margin-top: 10px;
+ }
+ .fundementals, .fundementals-title, .fundementals-text{
+    margin-left: 50px;
  }
