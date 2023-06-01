@@ -200,7 +200,7 @@ align-items: left;
 }
 .tom-tag_image{
     display: flex;
-    text-align: right;
+    gap: 20px;
 }
 .tom-tag_text{
     background-color: rgb(37, 150, 190);
