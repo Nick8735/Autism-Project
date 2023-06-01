@@ -7,7 +7,7 @@ body, html {
 }
 .banner-image {
    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/autism-hero.jpg");
-   height: 50vh;
+   height: vh;
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -39,10 +39,10 @@ body, html {
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;}
-.main-title{
-/* font-size: 100px;*/
+/* .main-title{
+font-size: 100px;
 
-}
+}*/
         .campaign-block{
         display: flex;
         align-items: center; 
