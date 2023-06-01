@@ -204,7 +204,7 @@ align-items: left;
 }
 .tom-tag_text{
     background-color: rgb(37, 150, 190);
-    border: 5px;
+    border: solid 5px;
     border-color: black;
     justify-content: center;
 }
