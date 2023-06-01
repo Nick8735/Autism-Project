@@ -165,6 +165,11 @@ main{
   
 }
 
+.support-page{
+margin-left: 25px;
+align-items: left;
+
+}
 .container-body{
     min-height: 100vh;
     display: flex;
