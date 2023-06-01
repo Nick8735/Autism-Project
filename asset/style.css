@@ -200,6 +200,7 @@ align-items: left;
 }
 .tom-tag_image{
     display: flex;
+    float: right;
    
 }
 .tom-tag_text{
