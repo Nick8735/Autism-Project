@@ -200,12 +200,12 @@ align-items: left;
 }
 .tom-tag_image{
     display: flex;
-    float: right;
+    
    
 }
 .tom-tag_text{
     display: flex;
-    background-color: rgb(37, 150, 190);
+    background-color: rgb(201, 214, 22);
     border: solid 2px;
     border-color: black;
     justify-content: center;
