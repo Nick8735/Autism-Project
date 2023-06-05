@@ -184,13 +184,11 @@ align-items: left;
     flex: 1;
     
 }
-.campaign-text_title{
-    margin-left: 50px;
-    text-align: left;
-}
+
  .campaign-text{
     text-align: left;
     margin-left: 50px;
+    background-color: white;
  }
  .card-main_title{
     text-align: center;
