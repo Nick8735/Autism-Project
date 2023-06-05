@@ -94,11 +94,10 @@ font-size: 100px;}*/
             
                }
 
-        .campaign-graphic_title{
-            margin: 0;
-        }
+       
         .campaign-graphic_description{
             margin-top: 10px ;
+            background-color: white;
                }
     .container{
         width: 80%;
