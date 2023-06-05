@@ -179,10 +179,8 @@ align-items: left;
     justify-content: space-between;
   
 }
-.content{
-    flex: 1;
-    
-}
+ 
+
 
  .campaign-text{
     text-align: left;
@@ -211,11 +209,13 @@ margin: 50px;
 }
 .tom-tag_text{
     display: flex;
-    background-color:white;
     border: solid 2px;
     border-color: black;
     justify-content: center;
     height: auto;
     width: 200px;
         
+}
+.boy-crying{
+    background-color: rgb(238, 238, 238) ;
 }
