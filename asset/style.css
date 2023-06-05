@@ -170,18 +170,13 @@ main{
 .support-page{
 margin-left: 25px;
 align-items: left;
-
 }
 .container-body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
-}
- 
-
-
+  }
  .campaign-text{
     text-align: left;
     margin-left: 50px;
@@ -214,4 +209,8 @@ margin: 50px;
     justify-content: center;
     height: auto;
     width: 200px;
+}
+.fundementals{
+background-color: white;
+
 }
