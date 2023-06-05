@@ -65,6 +65,7 @@ font-size: 100px;}*/
     .campaign-block_description{
         margin-top: 10px ;
         margin-right: 300px;
+        background-color: white;
            }
     .campaign-graphic{
         display: flex;
