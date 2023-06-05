@@ -45,7 +45,7 @@ font-size: 100px;}*/
         .campaign-block{
         display: flex;
         align-items: center; 
-        background-color: white;       
+        background-color: rgb(238, 238, 238);       
     }
 
     .campaign-block_inner{
