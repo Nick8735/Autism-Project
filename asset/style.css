@@ -209,7 +209,7 @@ margin: 50px;
     height: auto;
     width: 200px;
     background-color: white;
-    float: right;
+    justify-content: right;
 }
 .fundementals{
 background-color: white;
