@@ -159,7 +159,7 @@ footer{
            bottom: 0;
         width: 100%;}
     
-main{
+main::backdrop{
     flex-grow: 1;
     background-color: rgb(238, 238, 238);
   
