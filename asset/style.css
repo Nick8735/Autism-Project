@@ -189,7 +189,12 @@ align-items: left;
     margin-left: 50px;
     background-color: white;
     margin-right: 50px;
+    
  }
+.campaign-content{
+margin: 10px;
+
+}
  .card-main_title{
     text-align: center;
     margin-top: 10px;
