@@ -192,7 +192,7 @@ align-items: left;
     
  }
 .campaign-content{
-margin: 10px;
+margin: 50px;
 
 }
  .card-main_title{
@@ -211,7 +211,7 @@ margin: 10px;
 }
 .tom-tag_text{
     display: flex;
-    background-color: rgb(201, 214, 22);
+    background-color:white;
     border: solid 2px;
     border-color: black;
     justify-content: center;
