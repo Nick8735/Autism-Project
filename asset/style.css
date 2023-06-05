@@ -195,7 +195,7 @@ margin: 50px;
 .tom-tag_outer{
     display: flex;
     align-items: center; 
-   
+    justify-content: flex-end;
      
 }
 .tom-tag_image{
@@ -210,7 +210,7 @@ margin: 50px;
     height: auto;
     width: 200px;
     background-color: white;
-    justify-content: flex-end;
+    
     
 }
 .fundementals{
