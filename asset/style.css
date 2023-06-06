@@ -78,9 +78,7 @@ font-size: 100px;}*/
         display: flex;
         align-items: flex-start;
         gap: 20px;
-        border: 2px solid;
-        border-color: black;
-        
+              
      }              
      .campaign-graphic_image{
        max-width: 400px;
@@ -176,6 +174,7 @@ align-items: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid black;
   }
  .campaign-text{
     text-align: left;
