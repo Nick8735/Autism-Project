@@ -86,7 +86,8 @@ font-size: 100px;}*/
        height: auto;
        width: auto;
        margin-left: 50px;
-       border: solid black 2px;
+       border: 2px solid;
+       border-color: black;
        }
 
         .campaign-graphic_content{
