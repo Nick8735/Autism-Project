@@ -86,6 +86,7 @@ font-size: 100px;}*/
        height: auto;
        width: auto;
        margin-left: 50px;
+       border: solid black 2px;
        }
 
         .campaign-graphic_content{
@@ -133,14 +134,11 @@ font-size: 100px;}*/
     }
     @media (max-width: 767px) {       
         .grid {
-          grid-template-columns: 1fr; 
-        }
+          grid-template-columns: 1fr;}
       }
       .card{
         background-color: white;
-        border: 1px solid black;
-       
-        
+        border: 1px solid black;           
             }
 .card-image{
     width: 100%;
