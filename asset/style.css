@@ -198,22 +198,15 @@ margin: 50px;
     text-align: center;
     margin-top: 10px;
  }
-.tom-tag_outer{
-    display: flex;
-    align-items: center; 
-    
-     
-}
 .tom-tag_image{
     display: flex;
     margin: 20px;
-    
-   
-}
+   }
 .tom-tag_outer{
     display: flex;
           background-color: white;
-       margin: 50px;}
+       margin: 50px;
+    align-items: center;}
    
  .tom-tag_text{
     margin: 100px;
