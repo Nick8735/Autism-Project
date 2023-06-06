@@ -211,10 +211,10 @@ margin: 50px;
 .tom-tag_outer{
     display: flex;
           background-color: white;
-       margin: 100px;}
+       margin: 50px;}
    
  .tom-tag_text{
-    margin: 50px;
+    margin: 100px;
     padding-bottom: 50px;
  }   
 
