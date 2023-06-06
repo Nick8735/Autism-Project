@@ -207,7 +207,7 @@ margin: 50px;
     
    
 }
-.tom-tag_text{
+.tom-tag_outer{
     display: flex;
     border: solid 2px;
     border-color: black;
