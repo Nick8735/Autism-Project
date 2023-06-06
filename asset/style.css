@@ -174,7 +174,7 @@ align-items: left;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid black;
+   
   }
  .campaign-text{
     text-align: left;
@@ -225,4 +225,8 @@ margin: 50px;
 .campaign-dressed{
     background-color: white;
     margin: 50px;
+}
+.text-container{
+    border: 1px solid black;
+    padding: 10px;
 }
