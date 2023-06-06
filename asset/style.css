@@ -67,7 +67,8 @@ font-size: 100px;}*/
     .campaign-block_description{
         margin-top: 10px ;
         margin-right: 300px;
-        background-color: white;}
+        background-color: white;
+    padding: 10px;}
 
         .text-container{
         border: 10px solid black ;}
