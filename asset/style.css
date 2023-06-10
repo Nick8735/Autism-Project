@@ -236,9 +236,11 @@ padding: 25px;
     margin: 50px;
 }
 .pec-card{
+    display: flex;
     border: solid black 2px;
     margin-left: 50px;
     width: 500px;
     position: relative;
     padding: 5px;
+    align-items: center;
         }
