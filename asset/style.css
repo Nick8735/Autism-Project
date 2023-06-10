@@ -249,6 +249,7 @@ padding: 25px;
     padding: 25px; 
 }
 .sleeping-child{
+    display: flex;
     height: auto;
     width: 750px;
 }
