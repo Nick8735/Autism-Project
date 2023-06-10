@@ -245,14 +245,14 @@ padding: 25px;
     bottom: 100px;
                 }
 .sleep-outer{
-    background-color: white;
+        background-color: white;
     margin: 50px;
     padding: 25px; 
 }
-.sleeping-child{
+.sleep-outer{
     display: flex;
     height: auto;
     width: 750px;
-    align-items: center;
-}
+    }
+
           
