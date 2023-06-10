@@ -223,6 +223,7 @@ padding: 25px;
 .life-expirience_container{
     background-color:#AF69EF;
     padding: 10px;
+    float: right;
 }
 .school-outer{
     background-color: white;
