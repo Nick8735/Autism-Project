@@ -223,7 +223,7 @@ padding: 25px;
 .life-expirience_container{
     background-color:#AF69EF;
     padding: 10px;
-   
+    
 }
 .school-outer{
     background-color: white;
@@ -248,14 +248,13 @@ padding: 25px;
         background-color: white;
     margin: 50px;
     padding: 25px; 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
 }
 .sleeping-child{
+    display: flex;
+    flex: 0 0 auto;
     height: auto;
-    max-width: 100%;
-    
+    width: 750px;
+    margin-right:  20px;
     }
 .sleep-content{
     display: flex;
