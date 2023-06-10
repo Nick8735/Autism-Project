@@ -231,5 +231,6 @@ padding: 25px;
     padding: 25px; 
 }
 .school-inner{
+    display: flex;
     align-items: center;
 }
