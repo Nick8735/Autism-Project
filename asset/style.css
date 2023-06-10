@@ -248,13 +248,14 @@ padding: 25px;
         background-color: white;
     margin: 50px;
     padding: 25px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 .sleeping-child{
-    display: flex;
-    flex: 0 0 auto;
     height: auto;
-    width: 750px;
-    margin-right:  20px;
+    max-width: 100%;
+    
     }
 .sleep-content{
     display: flex;
