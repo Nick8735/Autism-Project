@@ -234,8 +234,7 @@ padding: 25px;
     align-items: center;
     gap: 25px;
     margin: 50px;
-    bottom: 250px;
-}
+    }
 .pec-card{
     
     border: solid black 2px;
@@ -244,5 +243,7 @@ padding: 25px;
     position: relative;
     padding: 5px;
     bottom:200px;
-    
-        }
+            }
+ .school-image{
+bottom: 250px;
+            }
