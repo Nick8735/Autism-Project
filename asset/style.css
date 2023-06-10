@@ -233,11 +233,9 @@ padding: 25px;
     display: flex;
     align-items: center;
     gap: 25px;
-    margin: 50px;
-    bottom: 200px;
-    }
+    order: 1;
+        }
 .pec-card{
-    
     border: solid black 2px;
     margin-left: 50px;
     width: 500px;
@@ -245,3 +243,7 @@ padding: 25px;
     padding: 5px;
     bottom:200px;
             }
+ .school-image{
+    order: 1;
+
+ }           
