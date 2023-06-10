@@ -223,7 +223,7 @@ padding: 25px;
 .life-expirience_container{
     background-color:#AF69EF;
     padding: 10px;
-    float: right;
+    flex: 1 1 auto;
 }
 .school-outer{
     background-color: white;
@@ -251,8 +251,13 @@ padding: 25px;
 }
 .sleeping-child{
     display: flex;
+    flex: 0 0 auto;
     height: auto;
     width: 750px;
+    margin-right:  20px;
     }
-
+.sleep-content{
+    display: flex;
+    align-items: center;
+}
           
