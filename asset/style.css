@@ -166,8 +166,7 @@ footer{
     
 main{
        background-color: rgb(238, 238, 238);
-    margin: 50px;
-  
+    margin: 50px;  
 }
 
 .support-page{
@@ -226,4 +225,9 @@ padding: 25px;
     background-color:#AF69EF;
     margin-left: 20px;
     margin-right: 20px;
+}
+.sleep-outer{
+    background-color: white;
+    margin: 50px;
+    padding: 25px; 
 }
