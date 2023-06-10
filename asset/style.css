@@ -235,3 +235,6 @@ padding: 25px;
     gap: 25px;
     margin: 50px;
 }
+.pec-card{
+    border: solid black 2px;
+}
