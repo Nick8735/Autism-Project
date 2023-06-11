@@ -286,7 +286,7 @@ display: flex;
 padding:25px;
 }
 .contact-left{
-    flex-basis: 100%;
+    flex-basis: 65%;
     padding: 40px 60px;
 }
 
