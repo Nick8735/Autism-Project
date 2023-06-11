@@ -275,3 +275,11 @@ padding: 25px;
     padding-right: 600px;
 
 }
+.contact-container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+background: #fff;
+display: flex
+}
