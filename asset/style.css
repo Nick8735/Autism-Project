@@ -303,7 +303,7 @@ contact-right{
     flex-basis: 100%;
 }
 textarea{
-    width: 100%;
+    width: 100% !important;
     border: 1px solid black;
     outline: none;
     padding: 10px;
