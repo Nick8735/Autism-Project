@@ -266,6 +266,8 @@ padding: 25px;
     margin: 50px;
     align-items: center; 
     position: relative;
-  
-}     
+  }     
+.eating-image{
+height: fit-content;
 
+}
