@@ -297,6 +297,7 @@ padding:25px;
 }
 .input-row .input-group{
     flex-basis: 45%;
+    padding: 10px;
 }
 textarea{
     width: 100% ;
