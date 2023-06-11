@@ -285,11 +285,11 @@ background: #fff;
 display: flex;
 padding:25px;
 }
-contact-left{
+.contact-left{
     flex-basis: 60%;
     padding: 40px 60px;
 }
-contact-right{
+.contact-right{
     flex-basis: 40%;
     padding: 40px;
     background: #fff;
