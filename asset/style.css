@@ -142,7 +142,7 @@ font-size: 100px;}*/
     }
     @media (max-width: 767px) {       
         .grid {
-          grid-template-columns: 1fr;}
+          grid-template-columns: 2fr;}
       }
       .card{
         background-color: white;
