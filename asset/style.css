@@ -298,6 +298,14 @@ padding:25px;
 .input-row .input-group{
     flex-basis: 45%;
 }
+.input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+    padding-bottom: 5px;
+}
+
 textarea{
     width: 100% ;
     border: 1px solid black;
