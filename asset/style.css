@@ -4,6 +4,7 @@ body, html {
         padding: 0;
         display: flex;
         flex-direction: column;
+        font-size: 16px;
 }
 .banner-image {
    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/autism-hero.jpg");
