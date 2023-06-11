@@ -286,7 +286,7 @@ display: flex;
 padding:25px;
 }
 .contact-left{
-    flex-basis: 100%;
+    flex-basis: 65%;
     padding: 40px 60px;
 }
 
@@ -299,7 +299,7 @@ padding:25px;
     flex-basis: 45%;
 }
 textarea{
-    width: 100% !important;
+    width: 100% ;
     border: 1px solid black;
     outline: none;
     padding: 10px;
