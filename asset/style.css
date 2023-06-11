@@ -267,8 +267,8 @@ padding: 25px;
     margin: 50px;
     align-items: center; 
 }     
-.eating-image{
+.eating-image{ 
     display: flex;
-    width: 500px;
+    width: 200px;
     height: auto;
 }    
