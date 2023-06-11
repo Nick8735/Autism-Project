@@ -300,10 +300,8 @@ padding:25px;
 }
 input{
     width: 100%;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
-    padding-bottom: 5px;
+    border: 1px solid;
+   padding-bottom: 5px;
 }
 
 textarea{
