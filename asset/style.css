@@ -307,4 +307,5 @@ textarea{
     border: 1px solid black;
     outline: none;
     padding: 10px;
+    box-sizing: border-box;
 }
