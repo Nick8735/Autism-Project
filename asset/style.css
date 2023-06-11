@@ -300,7 +300,7 @@ contact-right{
     margin-bottom: 20px;
 }
 .input-row .input-group{
-    flex-basis: 100%;
+    flex-basis: 90%;
 }
 textarea{
     width: 100%;
