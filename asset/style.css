@@ -298,7 +298,7 @@ padding:25px;
 .input-row .input-group{
     flex-basis: 45%;
 }
-.input{
+input{
     width: 100%;
     border: none;
     border-bottom: 1px solid;
