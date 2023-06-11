@@ -262,10 +262,10 @@ padding: 25px;
     align-items: center;
 }
 .eating-outer{
-    display: flex;
-    background-color: white;
+        background-color: white;
     margin: 50px;
     align-items: center; 
+    position: relative;
   
 }     
 
