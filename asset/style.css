@@ -294,6 +294,7 @@ padding:25px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 10px;
 }
 .input-row .input-group{
     flex-basis: 45%;
