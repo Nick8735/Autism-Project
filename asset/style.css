@@ -120,6 +120,7 @@ font-size: 100px;}*/
         grid-template-columns:repeat(4, 1fr);
         grid-template-rows: auto;
         grid-gap: 20px;
+        position: relative; 
         
     }
     .item{
@@ -130,7 +131,7 @@ font-size: 100px;}*/
         height: 100%;
         width: 100%;
         box-sizing: border-box; 
-        position: relative; 
+       
     }
     
     .item img{
