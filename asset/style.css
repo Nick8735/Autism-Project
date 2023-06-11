@@ -278,11 +278,11 @@ padding: 25px;
 .contact-container{
     width: 80%;
     margin: 50px auto;
-    padding: 25px;
 }
 .contact-box{
 background: #fff;
-display: flex
+display: flex;
+padding:25px;
 }
 contact-left{
     flex-basis: 60%;
