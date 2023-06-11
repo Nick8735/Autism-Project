@@ -299,7 +299,9 @@ contact-right{
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
+.input-row .input-group{
+    flex-basis: 90%;
+}
 textarea{
     width: 100%;
     border: 1px solid black;
