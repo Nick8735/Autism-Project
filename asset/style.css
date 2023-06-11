@@ -289,11 +289,7 @@ padding:25px;
     flex-basis: 100%;
     padding: 40px 60px;
 }
-.contact-right{
-    flex-basis: 40%;
-    padding: 40px;
-    background: #fff;
-}
+
 .input-row{
     display: flex;
     justify-content: space-between;
