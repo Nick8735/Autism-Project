@@ -266,6 +266,7 @@ padding: 25px;
     background-color: white;
     margin: 50px;
     align-items: center; 
+    width: 500px;
 }     
 .eating-image{ 
     display: flex;
