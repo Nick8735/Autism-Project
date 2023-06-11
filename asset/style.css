@@ -267,8 +267,10 @@ padding: 25px;
     align-items: center; 
     position: relative;
   }     
-.eating-image{
+.eating-image img{
     display: flex;
     margin: 20px;
+    max-width: 100%;
+    height: auto;
 
 }
