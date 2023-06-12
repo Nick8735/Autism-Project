@@ -67,7 +67,7 @@ font-size: 100px;}*/
         margin-top: 10px ;
                background-color: white;
         padding: 25px;
-   ;}
+   }
 
         .text-container{
         border: 2px solid black ;
@@ -163,7 +163,7 @@ font-size: 100px;}*/
     margin-top: 5px;
  }
 footer{
-    background-image: url("../asset/Images/autism-hero2.jpg");
+    background-color: rgb(238, 238, 238) ;
     background-size: cover;
     background-position: center;
            bottom: 0;
