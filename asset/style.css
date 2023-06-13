@@ -147,11 +147,13 @@ font-size: 100px;}*/
       }
       .card{
         background-color: white;
-        border: 1px solid black;           
+        border: 1px solid black;
+                 
             }
 .card-image{
     width: 100%;
     height: auto;
+    
 }
  .card-content{
     padding: 10px;
@@ -166,8 +168,10 @@ footer{
     background-color: rgb(238, 238, 238) ;
     background-size: auto;
     background-position: center;
-           bottom: 0;
-        width: 100%;}
+    width: 100%;
+    position: absolute;
+    margin-top: 250px;
+}
     
 main{
        background-color: rgb(238, 238, 238);
