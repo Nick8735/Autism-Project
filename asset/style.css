@@ -218,6 +218,10 @@ margin: 50px;
     margin: 50px;
     align-items: center;
 }
+.tom-tag_text{
+    border: 2px solid black;
+    padding: 5px;
+}
    
 .fundementals{
 background-color: white;
@@ -234,8 +238,8 @@ border: 2px solid black;
     background-color: white;
     margin: 50px;
     padding: 25px;
-    border: 2px solid black;
-    display: flexbox;
+   
+   
 }
 .life-experience_container1{
     background-color:#AF69EF;
@@ -247,14 +251,14 @@ border: 2px solid black;
 .life-experience_container2{
     background-color:#AF69EF;
     padding: 10px;
-    align-items: right;
+    margin-right: 850px;
     border: 2px solid black;}
 
     .life-experience_container3{
         background-color:#AF69EF;
         padding: 10px;
         align-items: right;
-    margin-left: 850px;
+    margin-right: 850px;
     border: 2px solid black;
         }
 
@@ -268,7 +272,7 @@ border: 2px solid black;
     background-color: white;
     margin: 50px;
     padding: 25px;
-    border: 2px solid black;
+    
      
 }
 .school-inner{
@@ -278,8 +282,12 @@ border: 2px solid black;
    
         }
         .school-image{
-            display: flex;
-            margin-top: 5px;
+           position: absolute;
+           margin-left: 600px;
+           gap: 20px;
+           padding: 20px;
+           margin-right: 20px;
+           width: 850px;
         }
 .pec-card{
     border: solid black 2px;
@@ -287,13 +295,13 @@ border: 2px solid black;
     width: 865px;
     position: relative;
     padding: 5px;
-    bottom: 100px;
+    
                 }
 .sleep-outer{
         background-color: white;
     margin: 50px;
     padding: 25px;
-    border: 2px solid black;
+    
 }
 .sleeping-child{
     display: flex;
@@ -311,7 +319,7 @@ border: 2px solid black;
     margin: 50px;
     align-items: center; 
     padding: 25px;
-    border: 2px solid black;
+   
       }     
 .eating-image img{
     display: flex;
