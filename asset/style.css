@@ -235,40 +235,51 @@ border: 2px solid black;
     margin: 50px;
     padding: 25px;
     border: 2px solid black;
+    display: flexbox;
 }
 .life-experience_container1{
     background-color:#AF69EF;
     padding: 10px;
     align-items: right;
+    border: 2px solid black;
     
 }
 .life-experience_container2{
     background-color:#AF69EF;
     padding: 10px;
-    align-items: right;}
+    align-items: right;
+    border: 2px solid black;}
 
     .life-experience_container3{
         background-color:#AF69EF;
         padding: 10px;
         align-items: right;
     margin-left: 850px;
+    border: 2px solid black;
         }
 
-        .life-experience_container4{
-            background-color:#AF69EF;
-            padding: 10px;
-            align-items: right;}
+ .life-experience_container4{
+      background-color:#AF69EF;
+      padding: 10px;
+    margin-right: 850px;
+     border: 2px solid black}
+
 .school-outer{
     background-color: white;
     margin: 50px;
     padding: 25px;
-    border: 2px solid black; 
+    border: 2px solid black;
+     
 }
 .school-inner{
     display: flex;
     align-items: center;
     gap: 25px;
    
+        }
+        .school-image{
+            display: flex;
+            margin-top: 5px;
         }
 .pec-card{
     border: solid black 2px;
@@ -293,7 +304,7 @@ border: 2px solid black;
     }
 .sleep-content{
     display: flex;
-    align-items: center;
+    
 }
 .eating-outer{
         background-color: white;
