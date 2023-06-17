@@ -170,7 +170,8 @@ footer{
     
 main{
        background-color: rgb(238, 238, 238);
-    margin: 50px;  
+    margin: 50px; 
+    padding: 25px; 
 }
 
 .support-page{
@@ -203,7 +204,7 @@ margin: 50px;
 .tom-tag_image{
     display: flex;
     margin: 20px;
-   }
+     }
 .tom-tag_outer{
     display: flex;
     background-color: white;
@@ -229,21 +230,20 @@ border: 2px solid black;
 .campaign-dressed{
     background-color: white;
     margin: 50px;
-    padding: 25px;
-   
-   
+    padding: 25px;    
 }
 .life-experience_container1{
     background-color:#AF69EF;
     padding: 10px;
     align-items: right;
     border: 2px solid black;
+    margin-right: 25px;
     
 }
 .life-experience_container2{
     background-color:#AF69EF;
     padding: 10px;
-    margin-right: 50px;
+    margin-right: 25px;
     border: 2px solid black;}
 
     .life-experience_container3{
@@ -262,7 +262,7 @@ border: 2px solid black;
 .school-outer{
     background-color: white;
     margin: 50px;
-    padding: 25px;
+    padding: 50px;
     
 }
 .school-inner{
@@ -285,11 +285,14 @@ border: 2px solid black;
     border: solid black 2px;
     margin-left: 5px;
     width: 865px;
+    height: 650px;
     position: absolute;
-    top: 4200px;
-    padding: 5px;
-    z-index: 1;
+    top: 4250px;
+    padding: 5px;    
                 }
+.pec-card p{
+    margin-bottom: 40px;
+}                
 .sleep-outer{
         background-color: white;
     margin: 50px;
@@ -301,19 +304,17 @@ border: 2px solid black;
     flex: 0 0 auto;
     height: auto;
     width: 750px;
-    margin-right:  20px;
+    margin-right: 20px;
     }
 .sleep-content{
     display: flex;
     
 }
 .eating-outer{
-        background-color: white;
-    margin: 50px;
-    align-items: center; 
-    padding: 25px;
-   
-      }     
+     background-color: white;
+     margin: 50px; 
+     padding: 25px;  
+           }     
 .eating-image img{
     display: flex;
     margin: 20px;
