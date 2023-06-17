@@ -144,15 +144,7 @@ font-size: 100px;}*/
         object-fit: cover;
        
     }
-    @media (max-width: 767px) {       
-        .grid {
-          grid-template-columns: 1fr;}
-      }
-      .card{
-        background-color: white;
-        border: 1px solid black;
-                 
-            }
+
 .card-image{
     width: 100%;
     height: auto;
@@ -251,14 +243,13 @@ border: 2px solid black;
 .life-experience_container2{
     background-color:#AF69EF;
     padding: 10px;
-    margin-right: 850px;
+    margin-right: 50px;
     border: 2px solid black;}
 
     .life-experience_container3{
         background-color:#AF69EF;
         padding: 10px;
-        align-items: right;
-    margin-right: 850px;
+           margin-right: 50px;
     border: 2px solid black;
         }
 
@@ -273,29 +264,31 @@ border: 2px solid black;
     margin: 50px;
     padding: 25px;
     
-     
 }
 .school-inner{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 25px;
-   
+      
         }
         .school-image{
-           position: absolute;
-           margin-left: 600px;
+            position: relative;
+           margin-left: 5px;
            gap: 20px;
            padding: 20px;
            margin-right: 20px;
-           width: 850px;
+           max-width: 100%;
+           height: auto;
+           flex-shrink: 0;
         }
 .pec-card{
     border: solid black 2px;
     margin-left: 5px;
     width: 865px;
-    position: relative;
+    position: absolute;
+    top: 4200px;
     padding: 5px;
-    
+    z-index: 1;
                 }
 .sleep-outer{
         background-color: white;
@@ -365,3 +358,52 @@ textarea{
     padding-bottom: 10px;
     box-sizing: border-box;
    }
+   @media (max-width: 768px){
+    .container{
+      width: 90%;
+    }
+    .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+  
+        .banner-text {
+          top: 60%;
+        }
+  
+        .campaign-block_inner,
+        .campaign-graphic_inner {
+          flex-direction: column;
+          align-items: center;
+        }
+  
+        .campaign-block_image,
+        .campaign-graphic_image {
+          margin: 0;
+        }
+  
+        .campaign-block_content,
+        .campaign-graphic_content {
+          margin-right: 0;
+        }
+  
+        footer {
+          margin-top: 150px;
+        }
+    }
+    @media (max-width: 768px) {       
+        .grid {
+          grid-template-columns: 1fr;}
+      }
+      .card{
+        background-color: white;
+        border: 1px solid black;
+                 
+            }
+            @media (max-width: 768px) {
+                .school-image {
+                  margin-left: 0; 
+                  margin-right: 0; 
+                  padding: 0; 
+                  max-width: 100%;
+                }
+              }
