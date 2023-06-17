@@ -58,6 +58,7 @@ font-size: 100px;}*/
         height: auto;
         margin-left: 50px;
         align-items: center;
+        margin-right: 25px;
     }
     .campaign-block_title{
         margin: 0;
@@ -181,9 +182,9 @@ margin-left: 25px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-   
-  }
+    justify-content: space-between;}
+
+
  .campaign-text{
     text-align: left;
     margin-left: 50px;
