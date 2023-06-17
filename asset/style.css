@@ -45,7 +45,7 @@ font-size: 100px;}*/
         display: flex;
         align-items: center; 
         background-color: rgb(238, 238, 238);
-            
+         
     }
 
     .campaign-block_inner{
@@ -124,8 +124,7 @@ font-size: 100px;}*/
         grid-template-rows: auto;
         grid-gap: 20px;
         position: relative;
-        
-        
+                
     }
     .item{
         display: flex;
@@ -286,7 +285,7 @@ border: 2px solid black;
     width: 865px;
     height: 650px;
     position: absolute;
-    top: 4250px;
+    top: 4450px;
     padding: 5px;    
                 }
 .pec-card p{
