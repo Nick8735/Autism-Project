@@ -163,8 +163,9 @@ footer{
     background-size: auto;
     background-position: center;
     width: 100%;
-    position: absolute;
+    position: sticky;
     margin-top: 250px;
+    top: 100px;
 }
     
 main{
