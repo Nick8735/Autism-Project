@@ -91,7 +91,6 @@ font-size: 100px;}*/
      }              
      .campaign-graphic_image{
        max-width: 400px;
-       max-height: auto;
        height: auto;
        width: auto;
        margin-left: 50px;
@@ -176,7 +175,6 @@ main{
 
 .support-page{
 margin-left: 25px;
-align-items: left;
 }
 .container-body{
     min-height: 100vh;
@@ -235,7 +233,6 @@ border: 2px solid black;
 .life-experience_container1{
     background-color:#AF69EF;
     padding: 10px;
-    align-items: right;
     border: 2px solid black;
     margin-right: 25px;
     
