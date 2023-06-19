@@ -349,6 +349,16 @@ input{
     border: 1px solid;
    padding-bottom: 5px;
 }
+.final-image{                  
+    height: 900px;
+   width: auto;
+   margin: 50px;
+  
+  }
+  .thank-you_text{
+    text-align: center;
+    
+  }
 
 textarea{
     width: 100% ;
@@ -406,3 +416,4 @@ textarea{
                   max-width: 100%;
                 }
               }
+              
