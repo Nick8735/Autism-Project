@@ -3,10 +3,11 @@ html {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    display: flex;    
     font-size: 18px;
-}
+    flex-direction: column;}
+
+
 
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/autism-hero.jpg");
@@ -314,14 +315,18 @@ main {
     height: auto;
     flex-shrink: 0;
 }
-
+ /* 
 .pec-card {
-    border: solid black 2px;
+       border: solid black 2px;
     margin-left: 5px;
-    max-width: 600px;
-    height: auto;
-       
-}
+    max-width: 600px;}
+
+    .pec-card_image{
+max-width: 100%;
+height: auto;
+width: 100%;
+    } */
+
 
 .pec-card p {
     margin-bottom: 40px;
@@ -354,8 +359,7 @@ main {
 }
 
 .eating-image img {
-    display: flex;
-    margin: 20px;
+      margin: 20px;
     max-width: 100%;
     height: auto;
    width: 750px;
@@ -499,7 +503,7 @@ textarea {
         }
       }
       @media (max-width: 970px) {
-        .boy-crying_image img {
+        .boy-crying img {
           max-width: 600px;
           
         }
@@ -513,7 +517,21 @@ textarea {
         }
       }
       @media (max-width: 710px) {
-        .boy-crying_image img {
+        .boy-crying img {
+          max-width: 400px;
+          
+        }
+        .tom-tag_image {
+          margin: 10px;
+          max-width: 300px;
+                 }
+.eating-image{
+    max-width: 400px;
+}
+       
+      }
+      @media (max-width: 600px) {
+        .boy-crying img {
           max-width: 400px;
           
         }
@@ -521,14 +539,71 @@ textarea {
           margin: 10px;
           max-width: 200px;
                  }
-        .pec-card_image {
-            max-width: 200px;            
-       }
-       .pec-card {
-        font-size: 12px;
-        max-width: 200px;
-   }
-        .sleeping-content img {
+.eating-image{
+    max-width: 400px;
+}
+
+.fundementals h1{
+font-size: 25px;
+}
+.life-experience_container1 h2, p  {
+    font-size: 10px; 
+}
+
+.life-experience_container2 h2  {
+    font-size:  16px; 
+}
+
+.life-experience_container3 h2  {
+    font-size:  16px;   
+}
+
+.life-experience_container4 h2  {
+    font-size: 16px; 
+}
+       
+      }
+      @media (max-width: 500px) {
+        .boy-crying img {
           max-width: 200px;
+          
         }
+        .tom-tag_image {
+          margin: 10px;
+          max-width: 100px;
+                 }
+.eating-image{
+    max-width: 200px;
+}
+
+.sleeping-child{
+    max-width: 200px;
+}
+
+
+.fundementals h1{
+font-size: 25px;
+}
+.life-experience_container1 h2  {
+    font-size: 10px; 
+   
+}
+.life-experience_container1 p  {
+    font-size: 10px; 
+   
+}
+
+
+.life-experience_container2 h2, p  {
+    font-size:  10px; 
+}
+
+.life-experience_container3 h2, p  {
+    font-size:  10px;   
+}
+
+.life-experience_container4 h2, p  {
+    font-size: 10px; 
+}
+       
       }
