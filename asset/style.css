@@ -61,7 +61,7 @@ font-size: 100px;}*/
 }
 
 .campaign-block_image {
-    width: 400px;
+    max-width: 400px;
     height: auto;
     margin-left: 50px;
     align-items: center;
@@ -128,7 +128,7 @@ font-size: 100px;}*/
     padding-top: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
-    height: 600px;
+       /* height: 600px;  */
 
 }
 
@@ -225,12 +225,13 @@ main {
 }
 
 .tom-tag_image {
-    display: flex;
-    margin: 20px;
+   
+    margin: 70px;
+    max-width: 600px;
 }
 
 .tom-tag_outer {
-    display: flex;
+   
     background-color: white;
     margin: 50px;
     align-items: center;
@@ -285,7 +286,7 @@ main {
 .life-experience_container4 {
     background-color: #AF69EF;
     padding: 10px;
-    margin-right: 850px;
+    margin-right: 50px;
     border: 2px solid black
 }
 
@@ -297,7 +298,7 @@ main {
 }
 
 .school-inner {
-    display: flex;
+    
     align-items: flex-start;
     gap: 25px;
 
@@ -317,11 +318,9 @@ main {
 .pec-card {
     border: solid black 2px;
     margin-left: 5px;
-    width: 865px;
-    height: 650px;
-    position: absolute;
-    top: 4450px;
-    padding: 5px;
+    max-width: 600px;
+    height: auto;
+       
 }
 
 .pec-card p {
@@ -359,7 +358,7 @@ main {
     margin: 20px;
     max-width: 100%;
     height: auto;
-    padding-right: 600px;
+   width: 750px;
 
 }
 
@@ -455,18 +454,81 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
+          @media (max-width: 767px) {
+      .campaign-block {
+        flex-direction: column;
+      }
 
-.card {
-    background-color: white;
-    border: 1px solid black;
-
-}
-
-@media (max-width: 768px) {
-    .school-image {
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-        max-width: 100%;
+      .campaign-block_content {
+        padding-left: 0;
+        margin-top: 20px;
+      }
     }
-}
+    @media (max-width: 541px) {
+        .campaign-graphic {
+          flex-direction: column;
+        }
+      }
+      
+      @media (max-width: 510px) {
+        .campaign-graphic_image {
+          max-width: 200px;
+        }
+        .campaign-block_image {
+          max-width: 200px;
+        }
+      }
+      
+      @media (max-width: 487px) {
+        .campaign-text {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      
+      @media (max-width: 382px) {
+        .campaign-text {
+          padding: 0;
+          font-size: 13px;
+        }
+        .campaign-text h2 {
+          font-size: 16px;
+        }
+        .campaign-graphic_content {
+          padding: 0;
+        }
+      }
+      @media (max-width: 970px) {
+        .boy-crying_image img {
+          max-width: 600px;
+          
+        }
+        .tom-tag_image {
+          margin: 10px;
+          max-width: 400px;
+         
+        }
+        .sleeping-content img {
+          max-width: 200px;
+        }
+      }
+      @media (max-width: 710px) {
+        .boy-crying_image img {
+          max-width: 400px;
+          
+        }
+        .tom-tag_image {
+          margin: 10px;
+          max-width: 200px;
+                 }
+        .pec-card_image {
+            max-width: 200px;            
+       }
+       .pec-card {
+        font-size: 12px;
+        max-width: 200px;
+   }
+        .sleeping-content img {
+          max-width: 200px;
+        }
+      }
