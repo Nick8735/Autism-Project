@@ -1,165 +1,184 @@
-body, html {
-        min-height: 100vh;
-               margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        font-size: 18px;
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
 }
-.banner-image {
-   background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/autism-hero.jpg");
-   height: 50vh;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
-    position: relative;
-    }
 
-    .banner-image_support{
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/support.jpg");
-        height: 50vh;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-         position: relative;
-         }
-         .banner-image_contact{
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../asset/Images/contact.jpg");
-            height: 50vh;
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-             position: relative; 
-         }
-         .banner-text{
-        text-align: center;
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;}
+.banner-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/autism-hero.jpg");
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-image_support {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/support.jpg");
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-image_contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/contact.jpg");
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 /* .main-title{
 font-size: 100px;}*/
 
-        .campaign-block{
-        display: flex;
-        align-items: center; 
-        background-color: rgb(238, 238, 238);
-         
-    }
+.campaign-block {
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
 
-    .campaign-block_inner{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-    .campaign-block_image{
-        width: 400px;
-        height: auto;
-        margin-left: 50px;
-        align-items: center;
-        margin-right: 25px;
-    }
-    .campaign-block_title{
-        margin: 0;
-        background-color: white;
-    }
-    .campaign-block_description{
-        margin-top: 10px ;
-               background-color: white;
-        padding: 25px;
-   }
+}
 
-        .campaign-block_content{
-        border: 2px solid black ;
-        background-color: white;
-        padding: 25px;
-        margin-right: 50px;
-            
-    }
-           
-    .campaign-graphic{
-        display: flex;
-        align-items: center;
-        justify-content: left;
-       
-            }
-     .campaign-graphic_inner{
-        display: flex;
-        align-items: flex-start;
-        gap: 20px;
-              
-     }              
-     .campaign-graphic_image{
-       max-width: 400px;
-       height: auto;
-       width: auto;
-       margin-left: 50px;
-             }
+.campaign-block_inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-        .campaign-graphic_content{
-            text-align: left;
-            margin-right: 50px;
-            background-color: white;
-            padding: 25px;
-            border: 2px solid black;
-             }    
-        .campaign-graphic_description{
-            background-color: white;
-            margin: 10px;
-            padding: 25px;
-               }
-    .container{
-        width: 80%;
-        margin: auto;
-                padding-top: 20px;
-        padding-bottom: 20px;
-        box-sizing: border-box;
-        height: 600px;
-       
-         }
-    .grid{
-        display: grid;
-        grid-template-columns:repeat(4, 1fr);
-        grid-template-rows: auto;
-        grid-gap: 20px;
-        position: relative;
-                
-    }
-    .item{
-        display: flex;
-        align-items: flex-start;
-        background-color: white;
-        justify-content: center;
-        height: 100%;
-        width: 100%;
-        box-sizing: border-box; 
-       
-    }
-    
-    .item img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-       
-    }
+.campaign-block_image {
+    width: 400px;
+    height: auto;
+    margin-left: 50px;
+    align-items: center;
+    margin-right: 25px;
+}
 
-.card-image{
+.campaign-block_title {
+    margin: 0;
+    background-color: white;
+}
+
+.campaign-block_description {
+    margin-top: 10px;
+    background-color: white;
+    padding: 25px;
+}
+
+.campaign-block_content {
+    border: 2px solid black;
+    background-color: white;
+    padding: 25px;
+    margin-right: 50px;
+
+}
+
+.campaign-graphic {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.campaign-graphic_inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.campaign-graphic_image {
+    max-width: 400px;
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+}
+
+.campaign-graphic_content {
+    text-align: left;
+    margin-right: 50px;
+    background-color: white;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+.campaign-graphic_description {
+    background-color: white;
+    margin: 10px;
+    padding: 25px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    height: 600px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    position: relative;
+
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.card-image {
     width: 100%;
     height: auto;
-    
+
 }
- .card-content{
+
+.card-content {
     padding: 10px;
- }
- .card-title{
+}
+
+.card-title {
     margin: 0;
- }
- .card-description{
+}
+
+.card-description {
     margin-top: 5px;
- }
-footer{
-    background-color: rgb(238, 238, 238) ;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
     background-size: auto;
     background-position: center;
     width: 100%;
@@ -167,153 +186,175 @@ footer{
     margin-top: 250px;
     top: 100px;
 }
-    
-main{
-       background-color: rgb(238, 238, 238);
-    margin: 50px; 
-    padding: 25px; 
+
+main {
+    background-color: rgb(238, 238, 238);
+    margin: 50px;
+    padding: 25px;
 }
 
-.support-page{
-margin-left: 25px;
+.support-page {
+    margin-left: 25px;
 }
-.container-body{
+
+.container-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 
- .campaign-text{
+.campaign-text {
     text-align: left;
     margin-left: 50px;
     background-color: white;
     margin-right: 50px;
-    padding: 25px; 
-    border: 2px solid black;   
- }
-.campaign-content{
-margin: 50px;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+.campaign-content {
+    margin: 50px;
 
 }
- .card-main_title{
+
+.card-main_title {
     text-align: center;
     margin-top: 10px;
- }
-.tom-tag_image{
+}
+
+.tom-tag_image {
     display: flex;
     margin: 20px;
-     }
-.tom-tag_outer{
+}
+
+.tom-tag_outer {
     display: flex;
     background-color: white;
     margin: 50px;
     align-items: center;
 }
-.tom-tag_text{
+
+.tom-tag_text {
     border: 2px solid black;
     padding: 5px;
 }
-   
-.fundementals{
-background-color: white;
-margin-top: 25px;
-margin: 50px;
-padding: 25px;
-border: 2px solid black;
+
+.fundementals {
+    background-color: white;
+    margin-top: 25px;
+    margin: 50px;
+    padding: 25px;
+    border: 2px solid black;
 }
-.boy-crying{
+
+.boy-crying {
     display: flex;
     justify-content: center;
 }
-.campaign-dressed{
+
+.campaign-dressed {
     background-color: white;
     margin: 50px;
-    padding: 25px;    
+    padding: 25px;
 }
-.life-experience_container1{
-    background-color:#AF69EF;
+
+.life-experience_container1 {
+    background-color: #AF69EF;
     padding: 10px;
     border: 2px solid black;
     margin-right: 25px;
-    
+
 }
-.life-experience_container2{
-    background-color:#AF69EF;
+
+.life-experience_container2 {
+    background-color: #AF69EF;
     padding: 10px;
     margin-right: 25px;
-    border: 2px solid black;}
-
-    .life-experience_container3{
-        background-color:#AF69EF;
-        padding: 10px;
-           margin-right: 50px;
     border: 2px solid black;
-        }
+}
 
- .life-experience_container4{
-      background-color:#AF69EF;
-      padding: 10px;
+.life-experience_container3 {
+    background-color: #AF69EF;
+    padding: 10px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
+
+.life-experience_container4 {
+    background-color: #AF69EF;
+    padding: 10px;
     margin-right: 850px;
-     border: 2px solid black}
+    border: 2px solid black
+}
 
-.school-outer{
+.school-outer {
     background-color: white;
     margin: 50px;
     padding: 50px;
-    
+
 }
-.school-inner{
+
+.school-inner {
     display: flex;
     align-items: flex-start;
     gap: 25px;
-      
-        }
-        .school-image{
-            position: relative;
-           margin-left: 5px;
-           gap: 20px;
-           padding: 20px;
-           margin-right: 20px;
-           max-width: 100%;
-           height: auto;
-           flex-shrink: 0;
-        }
-.pec-card{
+
+}
+
+.school-image {
+    position: relative;
+    margin-left: 5px;
+    gap: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.pec-card {
     border: solid black 2px;
     margin-left: 5px;
     width: 865px;
     height: 650px;
     position: absolute;
     top: 4450px;
-    padding: 5px;    
-                }
-.pec-card p{
+    padding: 5px;
+}
+
+.pec-card p {
     margin-bottom: 40px;
-}                
-.sleep-outer{
-        background-color: white;
+}
+
+.sleep-outer {
+    background-color: white;
     margin: 50px;
     padding: 25px;
-    
+
 }
-.sleeping-child{
+
+.sleeping-child {
     display: flex;
     flex: 0 0 auto;
     height: auto;
     width: 750px;
     margin-right: 20px;
-    }
-.sleep-content{
-    display: flex;
-    
 }
-.eating-outer{
-     background-color: white;
-     margin: 50px; 
-     padding: 25px;  
-           }     
-.eating-image img{
+
+.sleep-content {
+    display: flex;
+
+}
+
+.eating-outer {
+    background-color: white;
+    margin: 50px;
+    padding: 25px;
+}
+
+.eating-image img {
     display: flex;
     margin: 20px;
     max-width: 100%;
@@ -321,99 +362,111 @@ border: 2px solid black;
     padding-right: 600px;
 
 }
-.contact-container{
+
+.contact-container {
     width: 80%;
     margin: 50px auto;
     padding: 50px;
 }
-.contact-box{
-background: #fff;
-display: flex;
-padding:25px;
+
+.contact-box {
+    background: #fff;
+    display: flex;
+    padding: 25px;
 }
-.contact-left{
+
+.contact-left {
     flex-basis: 65%;
     padding: 40px 60px;
 }
 
-.input-row{
+.input-row {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.input-row .input-group{
+
+.input-row .input-group {
     flex-basis: 45%;
 }
-input{
+
+input {
     width: 100%;
     border: 1px solid;
-   padding-bottom: 5px;
+    padding-bottom: 5px;
 }
-.final-image{                  
-    height: 900px;
-   width: auto;
-   margin: 50px;
-  
-  }
-  .thank-you_text{
-    text-align: center;
-    
-  }
 
-textarea{
-    width: 100% ;
+.final-image {
+    height: 900px;
+    width: auto;
+    margin: 50px;
+
+}
+
+.thank-you_text {
+    text-align: center;
+
+}
+
+textarea {
+    width: 100%;
     border: 1px solid black;
     outline: none;
     padding-bottom: 10px;
     box-sizing: border-box;
-   }
-   @media (max-width: 768px){
-    .container{
-      width: 90%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
     }
+
     .grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-  
-        .banner-text {
-          top: 60%;
-        }
-  
-        .campaign-block_inner,
-        .campaign-graphic_inner {
-          flex-direction: column;
-          align-items: center;
-        }
-  
-        .campaign-block_image,
-        .campaign-graphic_image {
-          margin: 0;
-        }
-  
-        .campaign-block_content,
-        .campaign-graphic_content {
-          margin-right: 0;
-        }
-  
-        footer {
-          margin-top: 150px;
-        }
+        grid-template-columns: repeat(2, 1fr);
     }
-    @media (max-width: 768px) {       
-        .grid {
-          grid-template-columns: 1fr;}
-      }
-      .card{
-        background-color: white;
-        border: 1px solid black;
-                 
-            }
-            @media (max-width: 768px) {
-                .school-image {
-                  margin-left: 0; 
-                  margin-right: 0; 
-                  padding: 0; 
-                  max-width: 100%;
-                }
-              }
-              
+
+    .banner-text {
+        top: 60%;
+    }
+
+    .campaign-block_inner,
+    .campaign-graphic_inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .campaign-block_image,
+    .campaign-graphic_image {
+        margin: 0;
+    }
+
+    .campaign-block_content,
+    .campaign-graphic_content {
+        margin-right: 0;
+    }
+
+    footer {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+@media (max-width: 768px) {
+    .school-image {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+}
