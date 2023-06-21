@@ -3,11 +3,9 @@ html {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    display: flex;    
+    display: flex;
     font-size: 18px;
-    }
-
-
+}
 
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/autism-hero.jpg");
@@ -45,7 +43,7 @@ html {
     color: white;
 }
 
-.main-container{
+.main-container {
     flex-direction: column;
 }
 
@@ -133,7 +131,7 @@ font-size: 100px;}*/
     padding-top: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
-       /* height: 600px;  */
+    /* height: 600px;  */
 
 }
 
@@ -230,13 +228,13 @@ main {
 }
 
 .tom-tag_image {
-   
+
     margin: 70px;
     max-width: 600px;
 }
 
 .tom-tag_outer {
-   
+
     background-color: white;
     margin: 50px;
     align-items: center;
@@ -303,7 +301,7 @@ main {
 }
 
 .school-inner {
-    
+
     align-items: flex-start;
     gap: 25px;
 
@@ -319,7 +317,8 @@ main {
     height: auto;
     flex-shrink: 0;
 }
- /* 
+
+/* 
 .pec-card {
        border: solid black 2px;
     margin-left: 5px;
@@ -363,10 +362,10 @@ width: 100%;
 }
 
 .eating-image img {
-      margin: 20px;
+    margin: 20px;
     max-width: 100%;
     height: auto;
-   width: 750px;
+    width: 750px;
 
 }
 
@@ -407,23 +406,23 @@ input {
     margin: 200px;
     max-width: 100%;
     height: auto;
-   width: 750px;
-     
-  }
-  
-  .thank-you_text {
+    width: 750px;
+
+}
+
+.thank-you_text {
     text-align: center;
-    
-  }
-  
-  textarea {
+
+}
+
+textarea {
     width: 100%;
     border: 1px solid black;
     outline: none;
     padding-bottom: 10px;
     box-sizing: border-box;
-  }
-  
+}
+
 
 
 
@@ -466,217 +465,253 @@ input {
         grid-template-columns: 1fr;
     }
 }
-          @media (max-width: 767px) {
-      .campaign-block {
-        flex-direction: column;
-      }
 
-      .campaign-block_content {
+@media (max-width: 767px) {
+    .campaign-block {
+        flex-direction: column;
+    }
+
+    .campaign-block_content {
         padding-left: 0;
         margin-top: 20px;
-      }
     }
-    @media (max-width: 541px) {
-        .campaign-graphic {
-          flex-direction: column;
-        }
-      }
-      
-      @media (max-width: 510px) {
-        .campaign-graphic_image {
-          max-width: 200px;
-        }
-        .campaign-block_image {
-          max-width: 200px;
-        }
-      }
-      
-      @media (max-width: 487px) {
-        .campaign-text {
-          margin-left: 0;
-          margin-right: 0;
-        }
-      }
-      
-      @media (max-width: 382px) {
-        .campaign-text {
-          padding: 0;
-          font-size: 13px;
-        }
-        .campaign-text h2 {
-          font-size: 16px;
-        }
-        .campaign-graphic_content {
-          padding: 0;
-        }
-      }
-      @media (max-width: 970px) {
-        .boy-crying img {
-          max-width: 600px;
-          
-        }
-        .tom-tag_image {
-          margin: 10px;
-          max-width: 400px;
-         
-        }
-        .sleeping-content img {
-          max-width: 200px;
-        }
-      }
-      @media (max-width: 710px) {
-        .boy-crying img {
-          max-width: 400px;
-          
-        }
-        .tom-tag_image {
-          margin: 10px;
-          max-width: 300px;
-                 }
-.eating-image{
-    max-width: 400px;
-}
-       
-      }
-      @media (max-width: 600px) {
-        .boy-crying img {
-          max-width: 400px;
-          
-        }
-        .tom-tag_image {
-          margin: 10px;
-          max-width: 200px;
-                 }
-.eating-image{
-    max-width: 400px;
 }
 
-.fundementals h1{
-font-size: 25px;
-}
-.life-experience_container1 h2, p  {
-    font-size: 10px; 
-}
-
-.life-experience_container2 h2  {
-    font-size:  16px; 
+@media (max-width: 541px) {
+    .campaign-graphic {
+        flex-direction: column;
+    }
 }
 
-.life-experience_container3 h2  {
-    font-size:  16px;   
+@media (max-width: 510px) {
+    .campaign-graphic_image {
+        max-width: 200px;
+    }
+
+    .campaign-block_image {
+        max-width: 200px;
+    }
 }
 
-.life-experience_container4 h2  {
-    font-size: 16px; 
-}
-       
-      }
-      @media (max-width: 500px) {
-        .boy-crying img {
-          max-width: 200px;
-          
-        }
-        .tom-tag_image {
-          margin: 10px;
-          max-width: 100px;
-                 }
-                 .tom-tag_text {
-                    margin: 0;
-                    padding: 0;
-                    font-size: 8px;
-                           }   
-                           .tom-tag_outer {
-                            margin: 0;
-                            padding: 0;
-                                    }     
-                                    
-                                    .campaign-dressed_title {
-                                        margin: 0;
-                                        padding: 0;
-                                        font-size: 12px;
-                                               }                                 
-.eating-image{
-    max-width: 200px;
+@media (max-width: 487px) {
+    .campaign-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
-.sleeping-child{
-    max-width: 200px;
+@media (max-width: 382px) {
+    .campaign-text {
+        padding: 0;
+        font-size: 13px;
+    }
+
+    .campaign-text h2 {
+        font-size: 16px;
+    }
+
+    .campaign-graphic_content {
+        padding: 0;
+    }
 }
 
+@media (max-width: 970px) {
+    .boy-crying img {
+        max-width: 600px;
 
-.fundementals h1{
-font-size: 25px;
-}
-.life-experience_container1 h2  {
-    font-size: 10px; 
-   
-}
-.life-experience_container1 p  {
-    font-size: 10px; 
-   
-}
-.life-experience_container1  {
-    padding: 0;
-    margin: 0; 
-   
-}
+    }
 
+    .tom-tag_image {
+        margin: 10px;
+        max-width: 400px;
 
-.life-experience_container2 h2  {
-    font-size:  10px; 
-}
-.life-experience_container2  {
-    padding: 0;
-    margin: 0; 
-   
+    }
+
+    .sleeping-content img {
+        max-width: 200px;
+    }
 }
 
-.life-experience_container3 h2   {
-    font-size:  10px;   
+@media (max-width: 710px) {
+    .boy-crying img {
+        max-width: 400px;
+
+    }
+
+    .tom-tag_image {
+        margin: 10px;
+        max-width: 300px;
+    }
+
+    .eating-image {
+        max-width: 400px;
+    }
+
 }
-.life-experience_container3  {
-    padding: 0;
-    margin: 0; 
-   
+
+@media (max-width: 600px) {
+    .boy-crying img {
+        max-width: 400px;
+
+    }
+
+    .tom-tag_image {
+        margin: 10px;
+        max-width: 200px;
+    }
+
+    .eating-image {
+        max-width: 400px;
+    }
+
+    .fundementals h1 {
+        font-size: 25px;
+    }
+
+    .life-experience_container1 h2,
+    p {
+        font-size: 10px;
+    }
+
+    .life-experience_container2 h2 {
+        font-size: 16px;
+    }
+
+    .life-experience_container3 h2 {
+        font-size: 16px;
+    }
+
+    .life-experience_container4 h2 {
+        font-size: 16px;
+    }
+
 }
-.life-experience_container4 h2  {
-    font-size: 10px; 
+
+@media (max-width: 500px) {
+    .boy-crying img {
+        max-width: 200px;
+
+    }
+
+    .tom-tag_image {
+        margin: 10px;
+        max-width: 100px;
+    }
+
+    .tom-tag_text {
+        margin: 0;
+        padding: 0;
+        font-size: 8px;
+    }
+
+    .tom-tag_outer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .campaign-dressed_title {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .eating-image {
+        max-width: 200px;
+    }
+
+    .sleeping-child {
+        max-width: 200px;
+    }
+
+
+    .fundementals h1 {
+        font-size: 25px;
+    }
+
+    .life-experience_container1 h2 {
+        font-size: 10px;
+
+    }
+
+    .life-experience_container1 p {
+        font-size: 10px;
+
+    }
+
+    .life-experience_container1 {
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+    .life-experience_container2 h2 {
+        font-size: 10px;
+    }
+
+    .life-experience_container2 {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .life-experience_container3 h2 {
+        font-size: 10px;
+    }
+
+    .life-experience_container3 {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .life-experience_container4 h2 {
+        font-size: 10px;
+    }
+
+    .life-experience_container4 {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .school-outer h2 {
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+
+    }
+
+    .school-outer p {
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+
+    }
 }
-.life-experience_container4  {
-    padding: 0;
-    margin: 0; 
-   
-}  
-.school-outer h2  {
-    padding: 0;
-    margin: 0; 
-    font-size: 12px;
-   
-}     
-.school-outer p  {
-    padding: 0;
-    margin: 0; 
-    font-size: 10px;
-   
-}      
-      }
-      @media (max-width: 403px) {
-        .fundementals h1 {
-         font-size: 10px; }
+
+@media (max-width: 403px) {
+    .fundementals h1 {
+        font-size: 10px;
+    }
+
     body {
         font-size: 6px;
         margin: 0;
         padding: 0;
         display: flex;
     }
+
     main {
         margin: 0;
         padding: 0;
-        
+
     }
+}
+
+@media (max-width: 1100px) {
+    .final-image {
+        margin: 0;
     }
-    @media (max-width: 1100px) {
-        .final-image {
-         margin: 0; }
-          
-    }
+
+}
