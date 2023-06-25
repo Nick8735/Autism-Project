@@ -1,3 +1,4 @@
+/* default css for all pages */
 body,
 html {
     min-height: 100vh;
@@ -6,9 +7,9 @@ html {
     display: flex;
     font-size: 18px;
 }
-
+/* Banner and Nav Bar CSS */
 .banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/autism-hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/autism-hero.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,7 +18,7 @@ html {
 }
 
 .banner-image_support {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/support.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/support.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -26,7 +27,7 @@ html {
 }
 
 .banner-image_contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/contact.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/contact.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -42,14 +43,12 @@ html {
     transform: translate(-50%, -50%);
     color: white;
 }
-
+/* Container for full index */
 .main-container {
     flex-direction: column;
 }
 
-/* .main-title{
-font-size: 100px;}*/
-
+/* Css for inital image and call for action */
 .campaign-block {
     display: flex;
     align-items: center;
@@ -89,7 +88,7 @@ font-size: 100px;}*/
     margin-right: 50px;
 
 }
-
+/* css for statistics and text */
 .campaign-graphic {
     display: flex;
     align-items: center;
@@ -124,7 +123,20 @@ font-size: 100px;}*/
     margin: 10px;
     padding: 25px;
 }
+.campaign-text {
+    text-align: left;
+    margin-left: 50px;
+    background-color: white;
+    margin-right: 50px;
+    padding: 25px;
+    border: 2px solid black;
+}
 
+.campaign-content {
+    margin: 50px;
+
+}
+/* container for 4 main points of site */
 .container {
     width: 80%;
     margin: auto;
@@ -134,7 +146,7 @@ font-size: 100px;}*/
     /* height: 600px;  */
 
 }
-
+/* structure for cards that show the 4 main points */
 .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -179,7 +191,11 @@ font-size: 100px;}*/
 .card-description {
     margin-top: 5px;
 }
-
+.card-main_title {
+    text-align: center;
+    margin-top: 10px;
+}
+/* footer css for all pages */
 footer {
     background-color: rgb(238, 238, 238);
     background-size: auto;
@@ -189,43 +205,38 @@ footer {
     margin-top: 250px;
     top: 100px;
 }
-
+/* css for main area on each page  */
 main {
     background-color: rgb(238, 238, 238);
     margin: 50px;
     padding: 25px;
 }
-
+/* adjustment for support page to lower margin */
 .support-page {
     margin-left: 25px;
 }
-
+/* main container for support page */
 .container-body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
-
-.campaign-text {
-    text-align: left;
-    margin-left: 50px;
+/* Initial text and image more call to action */
+.fundementals {
     background-color: white;
-    margin-right: 50px;
+    margin-top: 25px;
+    margin: 50px;
     padding: 25px;
     border: 2px solid black;
 }
 
-.campaign-content {
-    margin: 50px;
-
+.boy-crying {
+    display: flex;
+    justify-content: center;
 }
 
-.card-main_title {
-    text-align: center;
-    margin-top: 10px;
-}
+/* campaing dressed section on support page  */
 
 .tom-tag_image {
 
@@ -244,20 +255,6 @@ main {
     border: 2px solid black;
     padding: 5px;
 }
-
-.fundementals {
-    background-color: white;
-    margin-top: 25px;
-    margin: 50px;
-    padding: 25px;
-    border: 2px solid black;
-}
-
-.boy-crying {
-    display: flex;
-    justify-content: center;
-}
-
 .campaign-dressed {
     background-color: white;
     margin: 50px;
@@ -271,28 +268,13 @@ main {
     margin-right: 25px;
 
 }
-
+/* school section on support page */
 .life-experience_container2 {
     background-color: #AF69EF;
     padding: 10px;
     margin-right: 25px;
     border: 2px solid black;
 }
-
-.life-experience_container3 {
-    background-color: #AF69EF;
-    padding: 10px;
-    margin-right: 50px;
-    border: 2px solid black;
-}
-
-.life-experience_container4 {
-    background-color: #AF69EF;
-    padding: 10px;
-    margin-right: 50px;
-    border: 2px solid black
-}
-
 .school-outer {
     background-color: white;
     margin: 50px;
@@ -317,8 +299,7 @@ main {
     height: auto;
     flex-shrink: 0;
 }
-
-/* 
+/* removed due to image resolution 
 .pec-card {
        border: solid black 2px;
     margin-left: 5px;
@@ -328,13 +309,20 @@ main {
 max-width: 100%;
 height: auto;
 width: 100%;
-    } */
+    } 
 
 
 .pec-card p {
     margin-bottom: 40px;
-}
+}*/
 
+/* Sleeping section of support page */
+.life-experience_container3 {
+    background-color: #AF69EF;
+    padding: 10px;
+    margin-right: 50px;
+    border: 2px solid black;
+}
 .sleep-outer {
     background-color: white;
     margin: 50px;
@@ -354,7 +342,13 @@ width: 100%;
     display: flex;
 
 }
-
+/* eating section of support page */
+.life-experience_container4 {
+    background-color: #AF69EF;
+    padding: 10px;
+    margin-right: 50px;
+    border: 2px solid black
+}
 .eating-outer {
     background-color: white;
     margin: 50px;
@@ -368,7 +362,7 @@ width: 100%;
     width: 750px;
 
 }
-
+/* contact us page css */
 .contact-container {
     width: 80%;
     margin: 50px auto;
@@ -401,7 +395,7 @@ input {
     border: 1px solid;
     padding-bottom: 5px;
 }
-
+/* final image and text of website on submit page */
 .final-image {
     margin: 200px;
     max-width: 100%;
@@ -424,7 +418,7 @@ textarea {
 }
 
 
-
+/* media querys  */
 
 @media (max-width: 768px) {
     .container {
