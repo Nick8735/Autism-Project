@@ -9,7 +9,7 @@ html {
 }
 /* Banner and Nav Bar CSS */
 .banner-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/autism-hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/autism-hero.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ html {
 }
 
 .banner-image_support {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/support.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/support.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ html {
 }
 
 .banner-image_contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/asset/Images/contact.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/Images/contact.jpg");
     height: 50vh;
     background-position: center center;
     background-repeat: no-repeat;
