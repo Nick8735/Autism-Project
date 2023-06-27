@@ -15,11 +15,39 @@ Mission: Our aim is to establish a comprehensive platform that provides users wi
 
 # User Experience (UX)
 
-* Identify the specific areas of support that will be encompassed.
-* Provide valuable information and resources to aid parents in supporting their children.
-* Establish effective communication channels for parents to share their personal stories.
+<h3><b>User Stories</b></h3>
 
+* First Time Visitor Goals
 
+1.  As a First time visitor, I want to identify the specific areas of support that relate to my needs.
+2.  As a First time visitor I want to explore narratives of individuals who have experienced Autism. This can potentially assist me in acquiring knowledge and adapting to new strategies that can enhance my children's daily routines.
+3. As a First-time visitor,  I want to navigate the website easily and locate the information I am seeking.
+
+* Returning Visitor Goals
+
+1. As a Returning Visitor, I want to read about new strategies and visual tools that could help my children.
+2. As a Returning Visitor, I want to have an opportunity to share my experiences and provide guidance and advice that have been shared with me as well.
+3. As a Returning Visitor, I want to find fresh new experiences updated consistently.
+
+* Frequent Visitors Goals
+
+1. As a Frequent User, I want to find links to sicial media sites to delve further into more information about Autism.
+2. As a Frequent User, I want to see new updated learning supports and new ideas.
+3. As a Frequent User, I want to post a quick message about an experience that had just happened befroe I go to work.
+
+* Design
+
+* Colour Scheme
+
+1. Three main colours used are white, grey and purple.
+
+* Imagery
+
+1. All images were selected from [Shutterstock](https://www.shutterstock.com). The Banner images were selected due to the bright colours and relating to Autism.
+
+* Project design plan
+
+My project has changed in a multitude of ways during development. Finding the right design and flow of the website was a challenge, 
 
 `python3 -m http.server`
 
