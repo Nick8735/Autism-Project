@@ -1,6 +1,6 @@
 # Support Autism
 
-![View here for Support Autism](https://nick8735.github.io/Autism-Project/)
+[View here for Support Autism](https://nick8735.github.io/Autism-Project/)
 
 Support Autism is a charitable website dedicated to providing assistance and resources for individuals facing the unique challenges of raising a child with autism. The website's "Real Life Experiences" section offers an invaluable platform for parents and caregivers to share their personal stories, highlighting both the obstacles they've encountered and the triumphs they've achieved. By featuring a diverse range of narratives in each of the four covered domains, readers gain access to multiple perspectives, ensuring a well-rounded understanding of the subject matter.
 
@@ -15,39 +15,78 @@ Mission: Our aim is to establish a comprehensive platform that provides users wi
 
 # User Experience (UX)
 
-<h3><b>User Stories</b></h3>
+##  <b>User Stories</b>
 
-* First Time Visitor Goals
+### First Time Visitor Goals
 
 1.  As a First time visitor, I want to identify the specific areas of support that relate to my needs.
 2.  As a First time visitor I want to explore narratives of individuals who have experienced Autism. This can potentially assist me in acquiring knowledge and adapting to new strategies that can enhance my children's daily routines.
 3. As a First-time visitor,  I want to navigate the website easily and locate the information I am seeking.
 
-* Returning Visitor Goals
+### Returning Visitor Goals
 
 1. As a Returning Visitor, I want to read about new strategies and visual tools that could help my children.
 2. As a Returning Visitor, I want to have an opportunity to share my experiences and provide guidance and advice that have been shared with me as well.
 3. As a Returning Visitor, I want to find fresh new experiences updated consistently.
 
-* Frequent Visitors Goals
+### Frequent Visitors Goals
 
 1. As a Frequent User, I want to find links to sicial media sites to delve further into more information about Autism.
 2. As a Frequent User, I want to see new updated learning supports and new ideas.
 3. As a Frequent User, I want to post a quick message about an experience that had just happened befroe I go to work.
 
-* Design
+# Design
 
-* Colour Scheme
+### Colour Scheme
 
 1. Three main colours used are white, grey and purple.
 
-* Imagery
+### Imagery
 
 1. All images were selected from [Shutterstock](https://www.shutterstock.com). The Banner images were selected due to the bright colours and relating to Autism.
 
-* Project design plan
+### Project design plan
 
-My project has changed in a multitude of ways during development. Finding the right design and flow of the website was a challenge, 
+Throughout the development process, my project underwent numerous transformations. Discovering the optimal design and flow for the website proved to be a challenge. As I progressed with the initial design, it became increasingly evident that the user experience lacked value and convenience.
+
+<img src="asset/Images/readme-images/home-page.png" alt="home-page" style="width:150px;"/>
+<img src="asset/Images/readme-images/page-2.png" alt="page-2" style="width:150px;"/>
+<img src="asset/Images/readme-images/page-3.png" alt="page-3" style="width:150px;"/>
+<img src="asset/Images/readme-images/page-4.png" alt="page-4" style="width:150px;"/>
+<img src="asset/Images/readme-images/page-5.png" alt="page-5" style="width:150px;"/>
+
+<br>
+<br>
+
+## How will I approach the design phase in the future?
+
+<br>
+
+* Prioritizing user experience is crucial, and an excessive number of pages can hinder users in finding their desired information.
+
+* I intend to allocate more time to market research, as I found that drawing inspiration from other Autism charity websites greatly assisted me in selecting the appropriate design.
+
+*  I will exercise greater caution when choosing imagery and ensure that I have a diverse range of backup images available in case any resolution issues arise later on.
+
+* I will dedicate more consideration to how the code aligns with the design and its functionality, ensuring a cohesive and seamless integration. 
+
+# Features
+
+* Responsive on all device sizes.
+
+* Interactive elements.
+
+* User return appeal.
+
+# Technologies Used
+
+## Languages Used
+
+* HTML5
+*CSS3
+
+
+
 
 `python3 -m http.server`
 
