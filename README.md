@@ -72,11 +72,29 @@ Throughout the development process, my project underwent numerous transformation
 
 # Features
 
-* Responsive on all device sizes.
+* Hero image - Bright and colourful to attact user to venture deeper.
 
-* Interactive elements.
+![Hero Image](asset/Images/readme-images/hero-readme.png)
 
-* User return appeal.
+* Nav-Bar simple and eay to use.
+![Nav-Bar](asset/Images/readme-images/nav-bar.png)
+
+* Interactive elements, cards on the home page have links that will take you to the specific sections to aide user travel.
+![Interactive Cards](asset/Images/readme-images/card.png)
+
+* User return appeal. The website incorporates real-life experiences shared by users through the contact page, with each section showcasing a unique message. This approach ensures consistent updates and provides users with a compelling reason to revisit the site.
+
+![Real Life Experience ](asset/Images/readme-images/rle.png)
+
+*The contact page on the website aligns with the site's theme and offers users the opportunity to actively participate by sharing their stories and experiences in supporting a child with Autism.
+
+![Contact](asset/Images/readme-images/contact.png)
+
+ *Thank you page stays with the theme of the site and thanks the user for sharing a story or experience.
+
+ ![Thank you](asset/Images/readme-images/thank-you.png)
+
+ * Website responsive on all device sizes.
 
 # Technologies Used
 
