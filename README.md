@@ -83,8 +83,36 @@ Throughout the development process, my project underwent numerous transformation
 ## Languages Used
 
 * HTML5
-*CSS3
+* CSS3
 
+## Frameworks, Libraries & Programs Used
+
+1. Bootstrap 4.4.1
+* Bootstrap was used to support only with the Nav Bar and Footer.
+2. Git
+* Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. - In the future, I will exercise more discretion in utilizing commits and focus on providing more detailed commits that highlight significant code milestones.
+3. GitHub
+* Github was used to store project coding after being pushed.
+4. Figma 
+*  Figma was used to support with design and planning.
+5. Shutterstock 
+* Shutterstock was used to format images. 
+
+# Testing
+
+The W3C Markup Validator was used to validate every page of HTML code.
+
+![HTML validation error](asset/Images/readme-images/errors.png)
+
+
+
+
+
+### CSS
+
+* The following shows CSS errors found at W3C Validator: 
+
+![CSS validation errors](asset/Images/readme-images/css-errors.png)
 
 
 
