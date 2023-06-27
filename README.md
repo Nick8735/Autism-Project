@@ -102,17 +102,29 @@ Throughout the development process, my project underwent numerous transformation
 
 The W3C Markup Validator was used to validate every page of HTML code.
 
+* Most errors were found on the support page as the examples shown below.
+
+Main error was the use of the anchor as a descendant of the button element.
+
+I found the answer on [Stack overflow](https://stackoverflow.com/questions/24837102/the-element-button-must-not-appear-as-a-descendant-of-the-a-element) which is a open forum for coding support.
+
+Other errors were a range of unclosed divs.
+
 ![HTML validation error](asset/Images/readme-images/errors.png)
 
 
-
+![HTML validation no errors](asset/Images/readme-images/html-no_errors.png)
 
 
 ### CSS
 
 * The following shows CSS errors found at W3C Validator: 
 
+Errors were for not using the correct values for 3 CSS elements. 
+
 ![CSS validation errors](asset/Images/readme-images/css-errors.png)
+
+![CSS validation no errors](asset/Images/readme-images/css-no_errors.png)
 
 
 
