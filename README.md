@@ -120,7 +120,7 @@ Throughout the development process, my project underwent numerous transformation
 
 The W3C Markup Validator was used to validate every page of HTML code.
 
-* Most errors were found on the support page as the examples shown below.
+Most errors were found on the support page as the examples shown below.
 
 Main error was the use of the anchor as a descendant of the button element.
 
@@ -162,8 +162,28 @@ Errors were for not using the correct values for 3 CSS elements.
 
 ![Contact Page](asset/Images/readme-images/lighthouse-contact.png)
 
-## Known Bugs
+## User Feedback
 
+* Website was accessed by multiple family and friends who gave the following feedback for bugs and suggestions.
+
+| Page      | Issue/Suggestion | comment                                 |
+|-----------|------------------|-----------------------------------------|
+| Support   | Spelling Mistake | Fundamentals spelt wrong                |
+| All Pages | Grammar          | Capital A for Autism throughout         |
+| Support   | Suggestion       | Can you bullet point the school section |
+| Support   | Missing link     | Autism.org is this a hyperlink          |
+| Support   | Grammar          | Sleep Paragraph too large               |
+| All       | Suggestions      | Images are not diverse enough           |
+| Support   | Grammar          | Capital letter for Getting Dressed      |
+| All       | Suggestion       | Change Meltdown to child in crisis      |
+
+
+
+Website was supplied to two health care professionals who gave the following feedback:
+
+1. Rachel - The website shows some brilliant points and using the twist of a forum is a great idea for sharing and communicating. I do have a suggestion for an update, I think having a section behaviours and looking at the different types of Autism can affect children in different ways. As an example children who are non-verbal communicate in ways such as crying and body movements.
+
+2. Christine - I think it is brilliant youve gone into great detail and covered areas most parents can relate too. ASD is not text book and every child can be different and having the option of information not selected just by the developer will help with sharing that knowledge and information that sometimes would be kept private. PECs cards are an amazing support for children who have not yet found their voice. Good Work!!
 
 # Deployment
 
@@ -214,9 +234,24 @@ $ git clone https://github.com/Nick8735/Autism-Project
 
 # Credits
 
+* [W3Schools](https://www.w3schools.com/) for support with bugs and coding errors.
+
+* [Bootstrap5.3](https://getbootstrap.com/) Used to support with navigation bar.
+
+* [National Autism Society](https://www.autism.org.uk/) for resource and ideas for plan and design.
+
+* [Tom Tag](https://orkidideas.com/) for use of support props as mentioned in getting dressed section.
+
+* [Shutterstock](https://www.shutterstock.com/) for all images.
+
+## Content
+
+All content was written by the developer.
+
+## Acknowledgemts 
+* My College Tutor for continuous support and understanding throughout.
+* My Mentor for great feedback and support.
+* My partner who looked after the kids while I tapped away.
 
 
-
-
-`python3 -m http.server`
 
