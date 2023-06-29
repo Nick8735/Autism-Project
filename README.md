@@ -74,8 +74,11 @@ Frequent Visitor
 1. All images were selected from [Shutterstock](https://www.shutterstock.com). The Banner images were selected due to the bright colours and relating to Autism.
 
 ### Project design plan
+<br>
 
-Throughout the development process, my project underwent numerous transformations. Discovering the optimal design and flow for the website proved to be a challenge. As I progressed with the initial design, it became increasingly evident that the user experience lacked value and convenience.
+Throughout the development process, my project underwent numerous transformations. Discovering the optimal design and flow for the website proved to be a challenge. As I progressed with the initial design, it became increasingly evident that the user experience lacked value and convenience.Following my initial meeting with my mentor, it was brought to my attention that certain crucial elements were missing from the website. These included a hero image, a clear call to action, an explanation of the website's purpose, limited interactive features, and a lack of smooth transitions between pages.
+
+<br>
 
 <img src="asset/Images/readme-images/home-page.png" alt="home-page" style="width:150px;"/>
 <img src="asset/Images/readme-images/page-2.png" alt="page-2" style="width:150px;"/>
@@ -85,6 +88,17 @@ Throughout the development process, my project underwent numerous transformation
 
 <br>
 <br>
+
+## Areas I focused on for changing design
+
+* Merged content to create 3 pages instead of 5.
+* Created a hero image on each of the 3 pages.
+* Replaced images with images from shutterstock.
+* Changed the input section to only be on the contact page.
+* Simplified Nav-Bar
+* created more specific margins and padding.
+* Changed the colour of the messages to stand out.
+
 
 ## How will I approach the design phase in the future?
 
