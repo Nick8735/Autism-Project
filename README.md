@@ -86,11 +86,11 @@ Throughout the development process, my project underwent numerous transformation
 
 ![Real Life Experience ](asset/Images/readme-images/rle.png)
 
-*The contact page on the website aligns with the site's theme and offers users the opportunity to actively participate by sharing their stories and experiences in supporting a child with Autism.
+* The contact page on the website aligns with the site's theme and offers users the opportunity to actively participate by sharing their stories and experiences in supporting a child with Autism.
 
 ![Contact](asset/Images/readme-images/contact.png)
 
- *Thank you page stays with the theme of the site and thanks the user for sharing a story or experience.
+ * Thank you page stays with the theme of the site and thanks the user for sharing a story or experience.
 
  ![Thank you](asset/Images/readme-images/thank-you.png)
 
