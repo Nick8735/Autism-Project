@@ -27,13 +27,41 @@ Mission: Our aim is to establish a comprehensive platform that provides users wi
 
 1. As a Returning Visitor, I want to read about new strategies and visual tools that could help my children.
 2. As a Returning Visitor, I want to have an opportunity to share my experiences and provide guidance and advice that have been shared with me as well.
-3. As a Returning Visitor, I want to find fresh new experiences updated consistently.
+3. As a Returning Visitor, I want to find links to social media sites.
+ 
 
 ### Frequent Visitors Goals
 
-1. As a Frequent User, I want to find links to sicial media sites to delve further into more information about Autism.
+1. As a Frequent User, I want to find fresh new experiences updated consistently.
 2. As a Frequent User, I want to see new updated learning supports and new ideas.
-3. As a Frequent User, I want to post a quick message about an experience that had just happened befroe I go to work.
+3. As a Frequent User, I want to post a quick message about an experience that had just happened before I go to work.
+
+## Testing User Stories
+
+* Christine - Special Needs Teacher
+
+First Time Visitor
+
+1. First time visitor was able to find the area regarding support with getting dressed without any direction.
+2. User was able to find real life stories and relate to the information she found.
+3. User was able to navigate the website and did not ask for support or found any problems while exploring.
+
+* Rachel - Healthcare Assistant
+
+Returning Visitor
+
+1. User found strategies she had not heard of before, such as Tom Tag and felt like she found new information that she had not discovered on her first visit.
+2. User was able to write and send her story and recived a message to confirm her story was sent and was awaiting review.
+3. User was able to navigate to the social media links and was taken directly to the sign in screens.
+
+* Christine
+
+Frequent Visitor
+
+1. The user was unable to discover any fresh information since the website was not actively functioning. Nonetheless, if the site were operational in real-time, regular updates would be available.
+2. New ideas would be available on the real-time version of site.
+3. User was able to create a message and send to verification.
+
 
 # Design
 
